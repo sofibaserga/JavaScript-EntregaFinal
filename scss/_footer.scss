@@ -1,0 +1,9 @@
+.textRosa a{
+    color: map-get($color, rosa-mas-oscuro);
+}
+
+.footer__block1__redes__contenedorRedes__texto{
+    &:hover{
+        color: map-get($color, rosa-mas-oscuro);
+    }
+}

@@ -1,0 +1,16 @@
+.contacto{
+    overflow: hidden;
+    .contacto__bloqueFormulario{
+        .contacto__bloqueFormulario__titulo__h1{
+            font-weight: map-get($font-weight, bold);
+        }
+    }
+    .contacto__resburgo{
+        .contacto__resburgo__h2{
+            font-weight: map-get($font-weight, bold);
+        }
+        .contacto__resburgo__bloqueMapa__h3{
+            font-weight: map-get($font-weight, bold);
+        }
+    }
+}

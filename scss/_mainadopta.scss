@@ -1,0 +1,17 @@
+.adopta__gatitos__cards{
+    width: 25rem;
+        .adopta__gatitos__cards__img{
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+                transform: scale(1.025);
+            }
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+         
+    .adopta__titulo__h1{
+        white-space: pre-line;
+    }
+}

@@ -1,0 +1,15 @@
+.ficha{
+    overflow: hidden;
+    .ficha__bloque1{
+        .ficha__bloque1__padreTxt__p{
+            font-weight: map-get($font-weight, regular);
+            white-space: pre-line; /* no lo vimos en clase, pero encontre en chat gpt que se podia hacer*/
+        }
+    }
+    .ficha__bloque2{
+        .ficha__bloque2__tabla__h2{
+            font-weight: map-get($font-weight, bold);
+        }
+        
+    }
+}

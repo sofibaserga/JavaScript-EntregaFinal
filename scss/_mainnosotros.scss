@@ -1,0 +1,22 @@
+.nosotros{
+    overflow: hidden;
+    .nosotros__sobreGatumania{
+        .nosotros__sobreGatumania__padreTxt__h2{
+            font-weight: map-get($font-weight, bold);
+        }
+        .nosotros__sobreGatumania__padreTxt__h3{
+            font-weight: map-get($font-weight, bold);
+        }
+        .nosotros__sobreGatumania__padreTxt__p{
+            white-space: pre-line; 
+        }
+    }
+    .nosotros__fundadora{
+        .nosotros__fundadora__padreTxt__h2{
+            font-weight: map-get($font-weight, bold);
+        }
+        .nosotros__fundadora__padreTxt__p{
+            white-space: pre-line;
+        }
+    }
+}

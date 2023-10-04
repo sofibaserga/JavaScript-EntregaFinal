@@ -1,0 +1,47 @@
+.bgRosa{
+    background-color: map-get($color, rosa-cien);
+}
+
+.bgRosita{
+    background-color: map-get($color, rosa-cincuenta);
+}
+
+.bgBlanco{
+    background-color: map-get($color, blanco);
+}
+
+.rounded-especifico {
+    border-radius: $border-radius-principal;
+}
+
+.textRosa{
+    color: map-get($color, rosa-mas-oscuro);
+}
+
+.rellenoRosa{
+    background-color: map-get($color, rosa-cien);
+    color: map-get($color, blanco);
+    line-height: 1.5;
+    font-weight: map-get($font-weight, bold);
+    &:hover{
+        background-color: map-get($color, rosa-setenta);
+        color: map-get($color, blanco);
+    }
+}
+
+.iconRosita{
+    color: map-get($color, rosa-quince);
+}
+
+.paddingSeccion{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.tipoMedium{
+    font-weight: map-get($font-weight, bold);
+}
+
+.tipoNegrita{
+    font-weight: map-get($font-weight, extrabold);
+}

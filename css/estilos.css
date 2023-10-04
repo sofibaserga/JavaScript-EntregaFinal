@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&display=swap");
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  color: #181818;
+  background-color: #FCF5F7;
+}
+
+p {
+  margin: 0;
+}
+
+.bgRosa {
+  background-color: #ECBEC9;
+}
+
+.bgRosita {
+  background-color: #F5DFE4;
+}
+
+.bgBlanco {
+  background-color: #FFFFFF;
+}
+
+.rounded-especifico {
+  border-radius: 1rem;
+}
+
+.textRosa {
+  color: #DA8E9E;
+}
+
+.rellenoRosa {
+  background-color: #ECBEC9;
+  color: #FFFFFF;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.rellenoRosa:hover {
+  background-color: #F2D1D9;
+  color: #FFFFFF;
+}
+
+.iconRosita {
+  color: #FCF5F7;
+}
+
+.paddingSeccion {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.tipoMedium {
+  font-weight: 300;
+}
+
+.tipoNegrita {
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link.sinRelleno {
+  color: #FFFFFF;
+  font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link.sinRelleno:hover {
+  color: #DA8E9E;
+}
+.navbar-light .navbar-nav .nav-link.rellenoBlanco {
+  background-color: #FCF5F7;
+  color: #DA8E9E;
+  font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link.rellenoBlanco:hover {
+  background-color: #FFFFFF;
+}
+
+.home .home__banner {
+  height: 28rem;
+  background-image: url("../assets/img/home/fondoGato.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.home .home__banner .home__banner__h1 {
+  font-weight: 300;
+}
+.home .home__banner .home__banner__h2 {
+  font-weight: 200;
+}
+.home .home__donaciones .home__donaciones__h2 {
+  font-weight: 300;
+}
+.home .home__donaciones .home__donaciones__conjunto__individual {
+  width: 18rem;
+  height: 20rem;
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .home__testimonios .home__testimonios__h2 {
+  font-weight: 300;
+}
+.home .home__testimonios .home__testimonios__conjunto .home__testimonios__conjunto__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.home .home__testimonios .home__testimonios__conjunto .home__testimonios__conjunto__texto .home__testimonios__conjunto__texto__h3 {
+  font-weight: 200;
+}
+.home .home__testimonios .home__testimonios__conjunto .home__testimonios__conjunto__texto .home__testimonios__conjunto__texto__h4 {
+  font-weight: 300;
+}
+.home .home__testimonios .home__testimonios__conjunto .home__testimonios__conjunto__texto .home__testimonios__conjunto__texto__p {
+  font-weight: 200;
+}
+.home .home__video .home__video__divVideo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .home .home__banner {
+    height: 25rem;
+    background-image: url("../assets/img/home/fondoGato_mobile.png");
+  }
+  .home .home__banner .home__banner__h1 {
+    font-size: 3rem;
+    white-space: pre-line;
+  }
+  .home .home__banner .home__banner__h2 {
+    white-space: pre-line;
+  }
+  .home .home__video__h2 {
+    white-space: pre-line;
+  }
+}
+.adopta__gatitos__cards {
+  width: 25rem;
+}
+.adopta__gatitos__cards .adopta__gatitos__cards__img {
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+.adopta__gatitos__cards .adopta__gatitos__cards__img:hover {
+  transform: scale(1.025);
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .adopta__titulo__h1 {
+    white-space: pre-line;
+  }
+}
+.ficha {
+  overflow: hidden;
+}
+.ficha .ficha__bloque1 .ficha__bloque1__padreTxt__p {
+  font-weight: 200;
+  white-space: pre-line; /* no lo vimos en clase, pero encontre en chat gpt que se podia hacer*/
+}
+.ficha .ficha__bloque2 .ficha__bloque2__tabla__h2 {
+  font-weight: 300;
+}
+
+.nosotros {
+  overflow: hidden;
+}
+.nosotros .nosotros__sobreGatumania .nosotros__sobreGatumania__padreTxt__h2 {
+  font-weight: 300;
+}
+.nosotros .nosotros__sobreGatumania .nosotros__sobreGatumania__padreTxt__h3 {
+  font-weight: 300;
+}
+.nosotros .nosotros__sobreGatumania .nosotros__sobreGatumania__padreTxt__p {
+  white-space: pre-line;
+}
+.nosotros .nosotros__fundadora .nosotros__fundadora__padreTxt__h2 {
+  font-weight: 300;
+}
+.nosotros .nosotros__fundadora .nosotros__fundadora__padreTxt__p {
+  white-space: pre-line;
+}
+
+.contacto {
+  overflow: hidden;
+}
+.contacto .contacto__bloqueFormulario .contacto__bloqueFormulario__titulo__h1 {
+  font-weight: 300;
+}
+.contacto .contacto__resburgo .contacto__resburgo__h2 {
+  font-weight: 300;
+}
+.contacto .contacto__resburgo .contacto__resburgo__bloqueMapa__h3 {
+  font-weight: 300;
+}
+
+.adopta__titulo__h2 {
+  font-weight: 200;
+}
+
+.cuatroCeroCuatro__info__contenedorImg {
+  width: 37rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .cuatroCeroCuatro__info__contenedorImg {
+    width: 20rem;
+  }
+}
+.textRosa a {
+  color: #DA8E9E;
+}
+
+.footer__block1__redes__contenedorRedes__texto:hover {
+  color: #DA8E9E;
+}/*# sourceMappingURL=estilos.css.map */

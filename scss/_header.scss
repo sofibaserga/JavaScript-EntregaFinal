@@ -1,0 +1,19 @@
+.navbar-light{
+    .navbar-nav{
+        .nav-link.sinRelleno{
+            color: map-get($color, blanco);
+            font-weight: map-get($font-weight, bold);
+            &:hover{
+                color: map-get($color, rosa-mas-oscuro);
+            }
+        }
+        .nav-link.rellenoBlanco{
+            background-color: map-get($color, rosa-quince);
+            color: map-get($color, rosa-mas-oscuro);
+            font-weight: map-get($font-weight, bold);
+            &:hover{
+                background-color: map-get($color, blanco);
+            }
+        }
+    }
+}

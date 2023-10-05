@@ -1,7 +1,9 @@
-let carrito = [];
+let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
 
 function agregarAlCarrito(producto) {
     carrito.push(producto);
+    guardarLocalStorage()
     console.log(carrito);
 }
 
@@ -16,7 +18,7 @@ function crearProductoCard(producto) {
     `;
 
     ficha.querySelector('.btnAgregarCarrito').addEventListener('click', () => {
-        agregarAlCarrito(producto); 
+        agregarAlCarrito(producto);
     });
 
     return ficha;
@@ -31,4 +33,56 @@ function dibujarCard() {
 }
 
 dibujarCard();
+
+
+const verCarrito = document.getElementById('verCarrito')
+const popUp = document.getElementById('popUpHeader')
+
+verCarrito.addEventListener('click', () => {
+    popUp.innerHTML = ``
+
+    popUp.style.display = "inline-block";
+    const popUpHeader = document.createElement("div");
+    popUpHeader.className = "pop-up-header";
+    popUpHeader.innerHTML = `
+        <h2 class="fs-4 text-center mb-1">Carrito de compras</h2>
+    `;
+    popUp.append(popUpHeader)
+
+    const popUpCerrar = document.createElement("h2");
+    popUpCerrar.className = "pop-up-cerrar";
+    popUpCerrar.innerHTML = `x`;
+
+    popUpCerrar.addEventListener('click', () => {
+        popUp.style.display = "none";
+    })
+
+    popUpHeader.append(popUpCerrar)
+
+    carrito.forEach((producto) => {
+        let contenidoCarrito = document.createElement("div");
+        contenidoCarrito.className = "contenido-carrito";
+        contenidoCarrito.innerHTML = `
+            <p>${producto.categoria} ${producto.nombre} ${producto.color} ${producto.medidas}</p>
+            <p>$${producto.precio}</p>
+        `;
+        popUp.append(contenidoCarrito)
+    })
+
+    const total = carrito.reduce ((acumulador,producto) => acumulador + producto.precio, 0);
+
+    const popUpTotal = document.createElement("div");
+    popUpTotal.className = "popUpTotal"
+    popUpTotal.innerHTML = `El total es $${total}
+    `;
+    popUp.append(popUpTotal)
+
+
+})
+
+const guardarLocalStorage = () => {
+    localStorage.setItem('carrito',JSON.stringify(carrito)); 
+}
+
+JSON.parse(localStorage.getItem('carrito'));
 

@@ -6,7 +6,7 @@ class ProductosCarrito {
     precio;
     cantidad;
 
-    constructor(categoria,nombre,color,medidas,precio) {
+    constructor(categoria, nombre, color, medidas, precio, cantidad) {
         this.categoria = categoria;  
         this.nombre = nombre;
         this.color = color;

@@ -5,18 +5,16 @@ class Productos {
     color;
     medidas;
     precio;
-    
-    constructor(imagen,categoria,nombre,color,medidas,precio) {
+
+    constructor(imagen, categoria, nombre, color, medidas, precio) {
         this.imagen = imagen;
-        this.categoria = categoria;  
+        this.categoria = categoria;
         this.nombre = nombre;
         this.color = color;
         this.medidas = medidas;
         this.precio = precio;
     }
 }
-
-
 
 const producto = [];
 

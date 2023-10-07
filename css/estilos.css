@@ -217,6 +217,45 @@ p {
   font-weight: 200;
 }
 
+#popUpHeader {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 16px;
+  width: 500px;
+  position: fixed;
+  top: 90px;
+  right: 3%;
+}
+
+.pop-up-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pop-up-cerrar {
+  cursor: pointer;
+}
+
+.contenido-carrito {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.eliminar-producto {
+  cursor: pointer;
+  color: rgb(174, 174, 174);
+}
+
+.popUpTotal {
+  margin-top: 30px;
+  font-weight: 500;
+}
+
 .cuatroCeroCuatro__info__contenedorImg {
   width: 37rem;
 }

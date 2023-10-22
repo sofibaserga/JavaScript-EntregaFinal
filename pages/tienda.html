@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/1a7ab603f0.js" crossorigin="anonymous"></script>
+    <!--Tostify-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
 <body>
@@ -56,8 +58,8 @@
                             <a class="nav-link active rellenoBlanco fs-5 fs-lg-5 text-center rounded-pill px-lg-4 ms-lg-3 px-0 ms-0 my-10"
                                 href="#">Tienda</a>
                         </li>
-                        <li class="nav-item">
-                            <img src="../assets/img/header/shopping-cart.png" alt="Carrito de compras" id="verCarrito" class="ver-carrito nav-link ms-lg-3 ms-0 my-10">
+                        <li class="nav-item carrito-de-compras">
+                            <img src="../assets/img/header/shopping-cart.png" alt="Carrito de compras" id="verCarrito" class="ver-carrito nav-link ms-lg-3 ms-0 my-10"><span id="numeroCarrito" class="numero-carrito"> </span>
                         </li>
                     </ul>
                 </div>
@@ -132,9 +134,11 @@
     <!--AOS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/correccionAos.js"></script>
+    <!--Sweet Alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--Tostify-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <!--JAVASCRIPT-->
-    <script src="../js/productos.js"></script>
-    <script src="../js/productosCarrito.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/carrito.js"></script>
 </body>

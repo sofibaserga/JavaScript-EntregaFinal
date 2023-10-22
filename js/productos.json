@@ -1,0 +1,112 @@
+[
+    {
+        "index" : 1,
+        "imagen": "../assets/img/tienda/petra_gris.jpg",
+        "categoria": "Manta",
+        "nombre": "Petra",
+        "color": "Girs",
+        "medidas": "100x120 cm",
+        "precio": 8500,
+        "cantidad": 1
+    },
+    {
+        "index" : 2,
+        "imagen": "../assets/img/tienda/petra_verde.jpg",
+        "categoria": "Manta",
+        "nombre": "Petra",
+        "color": "Verde",
+        "medidas": "100x120 cm",
+        "precio": 8500,
+        "cantidad": 1
+    },
+    {
+        "index" : 3,
+        "imagen": "../assets/img/tienda/petra_natural.jpg",
+        "categoria": "Manta",
+        "nombre": "Petra",
+        "color": "Natural",
+        "medidas": "100x120 cm",
+        "precio": 8500,
+        "cantidad": 1
+    },
+    {
+        "index" : 4,
+        "imagen": "../assets/img/tienda/petra_rosa_natural.jpg",
+        "categoria": "Manta",
+        "nombre": "Petra",
+        "color": "Rosa",
+        "medidas": "65x85 cm",
+        "precio": 7500,
+        "cantidad": 1
+    },
+    {
+        "index" : 5,
+        "imagen": "../assets/img/tienda/petra_verde_natural.jpg",
+        "categoria": "Manta",
+        "nombre": "Petra",
+        "color": "Verde",
+        "medidas": "65x85 cm",
+        "precio": 7500,
+        "cantidad": 1
+    },
+    {
+        "index" : 6,
+        "imagen": "../assets/img/tienda/libreta-sanitaria.jpg",
+        "categoria": "Libreta Sanitaria",
+        "nombre": "",
+        "color": "",
+        "medidas": "14,5x21 cm",
+        "precio": 2000,
+        "cantidad": 1
+    },
+    {
+        "index" : 7,
+        "imagen": "../assets/img/tienda/rascador-godini.jpg",
+        "categoria": "Rascador",
+        "nombre": "Godini",
+        "color": "",
+        "medidas": "",
+        "precio": 15000,
+        "cantidad": 1
+    },
+    {
+        "index" : 8,
+        "imagen": "../assets/img/tienda/rascador-kika.jpg",
+        "categoria": "Rascador",
+        "nombre": "Kika",
+        "color": "",
+        "medidas": "",
+        "precio": 28000,
+        "cantidad": 1
+    },
+    {
+        "index" : 9,
+        "imagen": "../assets/img/tienda/rascador-mintie.jpg",
+        "categoria": "Rascador",
+        "nombre": "Mintie",
+        "color": "",
+        "medidas": "",
+        "precio": 18000,
+        "cantidad": 1
+    },
+    {
+        "index" : 10,
+        "imagen": "../assets/img/tienda/rascador-tomatito.jpg",
+        "categoria": "Rascador",
+        "nombre": "Tomatito",
+        "color": "",
+        "medidas": "",
+        "precio": 20000,
+        "cantidad": 1
+    },
+    {
+        "index" : 11,
+        "imagen": "../assets/img/tienda/rascador-tomipuff.jpg",
+        "categoria": "Rascador",
+        "nombre": "Tomipuff",
+        "color": "",
+        "medidas": "",
+        "precio": 25000,
+        "cantidad": 1
+    }
+]

@@ -2,14 +2,19 @@
     font-weight: map-get($font-weight, regular);
 }
 
+
+/* Pop up header */
+
 #popUpHeader {
     background-color: white;
     padding: 20px 30px;
     border-radius: 16px;
-    width: 500px;
+    width: 700px;
     position: fixed;
     top: 90px;
     right: 3%;
+    display: none;
+    box-shadow: 0 15px 15px rgba(0,0,0,.050);
 }
 
 .pop-up-header {
@@ -36,8 +41,91 @@
     color:rgb(174, 174, 174);
 }
 
-
 .popUpTotal{
-    margin-top: 30px;
+    margin-top:15px;
     font-weight: 500;
+    text-align: right;
+    margin-right: 30px;
 }
+
+.carrito-de-compras{
+    display: flex;
+}
+
+.numero-carrito{
+    background-color:white;
+    border-radius: 50%; 
+    font-size: 12px; 
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.sumar{
+    cursor: pointer;
+}
+
+.restar{
+    cursor: pointer;
+}
+
+.botonesFinales{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.limpiar-carrito{
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+    margin: 15px auto;
+    width: 200px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+
+.botonFinalizar{
+    cursor: pointer;
+    margin: 15px auto;
+    width: 200px;
+    
+}
+
+.carrito-vacio{
+    color: #181818;
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+/* Sweet Alert */
+
+.swal2-container .swal2-html-container{
+    font-weight: 200;
+}
+
+.swal2-container .swal2-title{
+    font-weight: 300;
+    color: #181818;
+}
+
+.swal2-container .swal2-styled.swal2-confirm{
+    font-weight: 300;
+    border-radius: 50px;
+    color: white;
+}
+
+.swal2-container .swal2-styled.swal2-cancel{
+    font-weight: 300;
+    background-color: white;
+    color: #181818;
+    border-radius: 50px;
+    border: 1px solid #d0d0d0;
+}
+
